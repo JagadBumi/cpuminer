@@ -12,13 +12,15 @@ clear
 clear
 ./configure CFLAGS="-O3"
 clear
+echo "Make minerd..."
 make
 clear
 mv minerd /bin/
-sudo apt-get autoremove build-essential libcurl4-openssl-dev autotools-dev automake -y
+sudo apt-get autoremove build-essential libcurl4-openssl-dev autotools-dev automake -y | echo "Removing cache.."
 clear
 cd ~
 rm -rf minerd
 rm -rf .cache
 echo "Type command:\nminerd\nminerd --help\nminerd -o startum+tcp://host:port -u walletAddress -p x\nVisit https://zpool.ca for mining.."
+sleep 2
 clear
