@@ -4,7 +4,7 @@ git clone https://github.com/crypto-jeronimo/cpuminer-yescrypt-r16 minerd
 clear
 cd minerd
 chmod +x *
-sudo apt-get install build-essential libcurl4-openssl-dev autotools-dev automake
+sudo apt-get install build-essential libcurl4-openssl-dev autotools-dev automake -y
 clear
 ./autogen.sh
 clear
