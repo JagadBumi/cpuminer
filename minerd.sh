@@ -16,6 +16,10 @@ sudo apt-get autoremove build-essential libcurl4-openssl-dev autotools-dev autom
 cd ~
 rm -rf minerd
 rm -rf .cache
-echo "Type command:\nminerd\nminerd --help\nminerd -o startum+tcp://host:port -u walletAddress -p x\nVisit https://zpool.ca for mining.."
+echo "Type command:"
+echo "minerd"
+echo "minerd --help"
+echo "minerd -o startum+tcp://host:port -u walletAddress -p x"
+echo "visit https://zpool.ca for mining.."
 sleep 5
 clear
