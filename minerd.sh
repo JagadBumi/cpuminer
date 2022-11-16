@@ -15,6 +15,8 @@ clear
 make
 clear
 mv minerd /bin/
+sudo apt-get autoremove build-essential libcurl4-openssl-dev autotools-dev automake -y
+clear
 cd ~
 rm -rf minerd
 rm -rf .cache
