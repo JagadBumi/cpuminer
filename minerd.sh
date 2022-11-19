@@ -11,7 +11,7 @@ apt-get install build-essential libcurl4-openssl-dev autotools-dev automake -y
 ./configure CFLAGS="-O3"
 make
 mv minerd /bin/
-apt-get autoremove build-essential libcurl4-openssl-dev autotools-dev automake -y | echo "Please wait, removing cache.."
+chmod +x /bin/minerd
 cd ~
 rm -rf minerd
 minerd --help
