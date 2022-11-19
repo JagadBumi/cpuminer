@@ -3,6 +3,8 @@ cd ~
 git clone https://github.com/crypto-jeronimo/cpuminer-yescrypt-r16 minerd
 cd minerd
 chmod +x *
+apt-get update
+apt-get update
 apt-get install build-essential libcurl4-openssl-dev autotools-dev automake -y
 ./autogen.sh
 ./nomacro.pl
