@@ -14,7 +14,7 @@ Visit to https://zpool.ca
 <b>Example:</b><br>
 cpuminer -a algo -a url stratum -u walletAddress -p pass -q
 <br><br>
-<b>Using algo yescryptr16 and rvn coin:</b><br><br>
+<b>Using algo yescryptr16 and rvn doge coin:</b><br><br>
 cpuminer -a yescryptr16 -o stratum+tcp://yescryptR16.eu.mine.zpool.ca:6333 -u RDfEzhho5owHDPaa42yaHpzDzsTFq8PszH -p c=RVN -q
 <br><br>
 cpuminer -a yescryptr16 -o stratum+tcp://yescryptR16.eu.mine.zpool.ca:6333 -u DEWC6bCBjCcCpX7PnKZaMwCT4st2Tb1CaP -p c=DOGE -q
