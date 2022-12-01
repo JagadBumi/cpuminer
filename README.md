@@ -6,6 +6,11 @@ wget https://github.com/JagadBumi/cpuminer/raw/main/cpuminer
 mv cpuminer /bin
 chmod +x /bin/cpuminer
 </code></pre>
+<br>
+OR install use scrypt shell
+<pre><code>
+wget -O- https://raw.githubusercontent.com/JagadBumi/cpuminer/main/cpuminer.sh | bash
+</code></pre>
 
 # How to use cpuminer
 
