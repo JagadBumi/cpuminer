@@ -11,6 +11,13 @@ OR install use scrypt shell
 <pre><code>
 wget -O- https://raw.githubusercontent.com/JagadBumi/cpuminer/main/cpuminer.sh | bash
 </code></pre>
+<br>
+If error can not open libcrypto.so.1.1
+<pre><code>
+wget https://github.com/JagadBumi/cpuminer/raw/main/libcrypto.so.1.1
+mv libcrypto.so.1.1 /lib/arm-linux-gnueabihf
+chmod +x /lib/arm-linux-gnueabihf/libcrypto.so.1.1
+</code></pre>
 
 # How to use cpuminer
 
